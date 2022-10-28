@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-link {
+  color: #000;
+  transition: .3s ease;
+}
+
+.nav-link:hover {
+  color: #FF7426;
+}
+
+.inbox-input {
+  position: relative;
+}
+
+.navbar-right img {
+  transition: .3s ease;
+}
+
+.navbar-right img:hover {
+  transform: scale(1.3);
+}
+
+.inbox-input .inbox-btn {
+  position: absolute;
+  top: 12%;
+  right: 10px;
+}
+
+.inbox-input input[placeholder] {
+  padding-left: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.4);
+}
